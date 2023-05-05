@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
+/*universal selector*/
 * {
   margin: 0;
   padding: 0;
 }
+/*css selector html */
 html {
   scroll-behavior: smooth;
 }
@@ -13,7 +15,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/*Section 1*/
+/*Section 1 is class selector*/
 .section-1 {
   max-width: 1040px;
   margin: auto;
@@ -25,7 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+/*'.section-1-container img' is a descendent selector. It targets all '<img>' elements that are descendants of an element with the class. 'section-1-conatiner'.*/
 .section-1-header-logo img {
   height: 100%;
 }
@@ -141,4 +143,13 @@ body {
     border-radius: 40px;
     cursor: pointer;
     font-weight: 700;
+}
+
+/*Section 4*/
+.section-4{
+  max-width: 1040px;
+  padding-top: 60px;
+  margin:auto;
+  display: flex;
+  min-height: 100vh;
 }

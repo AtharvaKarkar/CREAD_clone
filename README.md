@@ -2,7 +2,7 @@
 
 Live Demo : https://atharvakarkar.github.io/CREAD_clone/
 
-Technologies
+Technologies :
 HTML
 CSS
 JavaScript 
